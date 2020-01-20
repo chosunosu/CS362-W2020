@@ -27,8 +27,8 @@ supply_order = testUtility.getSupplyOrder()
 supply = testUtility.getSupply(nV, nV, player_names)
 
 #test scenario 2
-#duchy supply has been emptied 
-supply["Duchy"] = []
+#province supply has been emptied 
+supply["Province"] = []
 
 #initialize the trash
 trash = []
